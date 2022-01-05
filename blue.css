@@ -1,0 +1,60 @@
+:root{
+	--mainColor:#15202B;
+	--secondaryColor:#5180ab;
+
+
+	--borderColor:#164D56;
+
+
+	--mainText: #fff;
+	--secondaryText:##ccc;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgba(25, 39,52, 0.8);
+	--previewShadow:#111921;
+	--buttonColor:#17a2b8;
+
+
+}
+
+p{
+	color: var(--mainText);
+}
+.p-id{
+	color: var(--mainColor);
+}
+
+.p-id-2{
+	color: var(--mainColor);
+}
+
+
+
+h3{
+	color: var(--mainText);
+}
+
+.linkedin-h3{
+	color: var(--mainColor);
+}
+.h3-contact{
+	color: var(--mainColor);
+}
+
+h4{
+	color: var(--mainColor);
+}
+
+#preview{
+	color: var(--secondaryColor);
+}
+
+#skills{
+	color: var(--mainText);
+}
+
+.label{
+	color: var(--mainText);
+}
+

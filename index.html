@@ -1,7 +1,150 @@
 <!DOCTYPE html>
-<html>
-<body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<html lang="en">
+    <head>
+        <title>Jacob Molinar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="default.css"
+            >
+            <link id="theme-style" rel="stylesheet" type="text/css" href="">
+        </head>
+        <body>
+            <!--greeting wrapper-->
+            <section class="s1">
+                <div class="main-container">
+                    <div class="greeting-wrapper">
+                        <h1>Hello! I'm Jacob Molinar.</h1>
+                    </div>
+                    <div class="intro-wrapper">
+                        <div class="nav-wrapper">
+                            <a href="index.html">
+                                <div class="dots-wrapper">
+                                    <!--note-->        <div id="dot-1" class="browser-dot"></div>
+                                    <!--id uses # in css--><div id="dot-2" class="browser-dot"></div>
+                                    <div id="dot-3" class="browser-dot"></div>
+                                </div>
+                            </a>
+                            <ul id="navigation">
+                                <!-- #navigation li inline--->
+                                <li><a href="#contact-form">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!--left column-->
+                        <!--left column-->
+                        <div class="left-column">
+                            <img id="profile_pic" src="images/jake1.jpg" alt="jake">
+                            <h5 style="text-align: center; line-height:0;">Personalize Theme
+                            </h5>
+                            <div id="theme-options-wrapper">
+                                <div data-mode="light"id="light-mode" class="theme-dot"></div>
+                                <div data-mode="blue"id="blue-mode" class="theme-dot"></div>
+                                <div data-mode="green"id="green-mode" class="theme-dot"></div>
+                                <div data-mode="purple"id="purple-mode" class="theme-dot"></div>
+                            </div>
+                            <p id="settings-note">*click to change themes</p>
+                        </div>
+                        <!--right column-->
+                        <!--right column-->
+                        <div class="right-column">
+                            <div id="preview-shadow">
+                                <div id="preview">
+                                    <div id="corner-tl" class="corner"></div>
+                                    <div id="corner-tr" class="corner"></div>
+                                    <h3>What I Do</h3>
+                                    <p class="">I teach second graders online professionally.  
+                                    <br>
+                                    I also do computer programming as a hobby. 
+                                    <br>
+                                    
+                                    </p>
+                                    <div id="corner-br" class="corner"></div>
+                                    <div id="corner-bl" class="corner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- more about --->
+            <section class="s2">
+                <div class="main-container">
+                    <div class="about-wrapper">
+                        <div class="about-me">
+                            <h4>My Programming Experience</h4>
+                            <p class="p-id">While learning how to teach kids to code, I deepened my understanding of the basics of coding. The truth is, my love for computers has grown so much that I have become interested in looking beyond teaching and into a new direction. </p>
+                            <hr>
+                            <h4>Soft Skills</h4>
+                            <p class="p-id-2">Python, HTML5, CSS, Bootstrap: <a target="_blank" href="/Users/wackmiller/Desktop/portfolio/portfolio-website-1/images/resume.pdf">Download Resume</a></p>
+                            <div class="list-group">
+                                <ul>
+                                    <li>Basics:</li>
+                                    <li>SQL</li>
+                                    <li>Git</li>
+                                    <li>JavaScript</li>
+                                    <li>Flask</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <img id= "social_img"src="/images/social.png" alt="">
+                            <h3 class="linkedin-h3">Find me on LinkedIn</h3>
+                            <a
+                                href="https://www.linkedin.com/in/jake-molinar-0243ba226/"
+                                target="_blank">LinkedIn: @jake-molinar-0243ba226
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s1">
+                <div class="main-container">
+                    <h3 style="text-align: center;">My Current Projects</h3>
+                    <div class="post-wrapper p-3">
+                        <div>
+                            <div class="post">
+                                <img src="images/project1.png" class="thumbnail">
+                                <div class="post-preview">
+                                    <h6 class="post-title"> Keeping Writing Simple</h6>
+                                    <p class="post-intro">Read on to learn about a successful curriculum-designer opening her own online store.
+                                    </p>
+                                    <a href="post.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="post">
+                                <img src="images/elrosal.png" class="thumbnail">
+                                <div class="post-preview">
+                                    <h6 class="post-title">El Rosal</h6>
+                                    <p class="post-intro">Read more about a popular outdoor-shop in Midland, Texas. </p>
+                                    <a href="post2.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s2">
+                <div class="main-container">
+                    <h3 class="h3-contact"style="text-align: center;">Get in touch</h3>
+                    <form id="contact-form">
+                        <label class="label">Name</label>
+                        <input class="input-field" type="text" name="name">
+                        <label class="label">Subject</label>
+                        <input class="input-field" type="text" name="subject">
+                        <label class="label">Email</label>
+                        <input class="input-field" type="text" name="Email">
+                        <label class="label">Message</label>
+                        <textarea class="input-field" name="message"></textarea>
+                        <input id="submit-btn" type="submit" value="Send">
+                    </form>
+                </div>
+            </section>
+            <script type="text/javascript" src="script.js">
+        </script>
+        </body>
+    </html>

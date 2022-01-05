@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Keeping Writing Simple Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <style type="text/css" href="/default.css">
+        
+
+
+        img{
+        width:50%;
+        padding: 10px;
+        height: auto;
+        border: 1px #ccc solid;
+        margin: auto;
+        display: block;
+        
+        }
+        #center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        p,h3 {
+        text-align: center;
+        vertical-align: middle;
+
+        }
+        .main-wrapper{
+        padding: 30px;
+        
+        }
+
+        
+
+
+        .blocktext{
+            text-align: center;
+            position: relative;
+
+        }
+
+        .left-column{
+            grid-area: left-column;
+        }
+
+        .right-column{
+            grid-area: right-column;
+        }
+
+        #main-wrapper{
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+             'navigation navigation'
+             'left-column right-column'
+
+             ;
+        }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <a href="index.html">
+                <div class="dots-wrapper">
+                    <div id="dot-1" class="browser-dot"></div>
+                    <div id="dot-2" class="browser-dot"></div>
+                    <div id="dot-3" class="browser-dot"></div>
+                </div>
+            </a>
+            <ul id="navigation">
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="wrapper main-wrapper">
+            <div class="img-container left-column">
+                <img class="center"src="images/kws home.png"alt="project1">
+            </div>
+            <div class="left-column">
+            <h3 class="first-h3">My first (almost complete) project</h3>
+                <p class="blocktext">A few years ago I began learning about Python. About programming in general. A friend of mine wanted me to build her a website so that I could practice the front-end side of web development, and also allow her to work on her next career move. With a successful site she will retain full profits of her sales.
+                
+                So, I made her a website. Well, it is in development, just like this project. <br>
+                <br>
+                <a class="btn btn-primary" href="https://github.com/drawingcircles/kws" role="button">Click here to see the project code.</a>
+                <br>
+                <a href="https://keepingwritingsimple.s3.us-west-1.amazonaws.com/kws/home.html"role="button">Or click here to see the project live. </a>
+                <hr>
+            </div>
+            <h5>Skills used in this project:</h5>
+            <ul>
+                <li>- HTML</li>
+                <li>- CSS</li>
+                <li>- JS</li>
+            </ul>
+            <br>
+            <hr>
+            <h5>Login</h5>
+            <div class="img-container">
+                <img src="images/project3.png">
+                <p>I am using MySQL to create fully-functioning login and sign-up pages.</p>
+            </div>
+            <hr>
+            <h5>Blog</h5>
+            <div class="img-container">
+                <img src="images/kws blog.png">
+                <p>With a soon-to-be-updated blog.</p>
+            </div>
+            </div>
+        </div>   
+    </div>
+</body>
+</html>

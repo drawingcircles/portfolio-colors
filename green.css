@@ -1,0 +1,60 @@
+:root{
+	--mainColor:#606B56;
+	--secondaryColor:#515a48;
+
+	--borderColor:#161914;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(81, 90, 72, 0.8);
+	--previewShadow:#2a2f25;
+
+
+	--buttonColor:#669966;
+
+
+}
+
+p{
+	color: var(--mainText);
+}
+.p-id{
+	color: var(--mainColor);
+}
+
+.p-id-2{
+	color: var(--mainColor);
+}
+
+
+
+h3{
+	color: var(--mainText);
+}
+
+.linkedin-h3{
+	color: var(--mainColor);
+}
+.h3-contact{
+	color: var(--mainColor);
+}
+
+h4{
+	color: var(--mainColor);
+}
+
+#preview{
+	color: var(--secondaryColor);
+}
+
+li{
+	color: #1d1520;
+}
+
+.label{
+	color: var(--mainText);
+}
+

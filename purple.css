@@ -1,0 +1,68 @@
+:root{
+	--mainColor:#46344E;
+	--secondaryColor:#382a3f;
+
+	--borderColor:#1d1520;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(29, 21, 32, 0.8);
+	--previewShadow:#2b202f;
+
+
+	--buttonColor:#8534a3;
+
+
+}
+p{
+	color: var(--mainText);
+}
+.p-id{
+	color: var(--mainColor);
+}
+
+.p-id-2{
+	color: var(--mainColor);
+}
+
+
+.first-p{
+	color:  var(--mainText);
+}
+
+
+#id-settings
+
+
+
+
+h3{
+	color: var(--mainText);
+}
+
+.linkedin-h3{
+	color: var(--mainColor);
+}
+.h3-contact{
+	color: var(--mainColor);
+}
+
+h4{
+	color: var(--mainColor);
+}
+
+#preview{
+	color: var(--secondaryColor);
+}
+
+li{
+	color: #1d1520;
+}
+
+.label{
+	color: var(--mainText);
+}
+
